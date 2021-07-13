@@ -18,6 +18,7 @@
 <script src="{{ cdn_resource('/assets/vendor/editor-md/lib/flowchart.min.js') }}"></script>
 <script src="{{ cdn_resource('/assets/vendor/editor-md/lib/jquery.flowchart.min.js') }}"></script>
 <script src="{{ cdn_resource('/assets/vendor/mermaid.min.js') }}"></script>
+<script src="{{ cdn_resource('/assets/vendor/plantuml-encoder.min.js') }}"></script>
 <script src="{{ cdn_resource('/assets/vendor/editor-md/editormd.js') }}?{{ resourceVersion() }}"></script>
 <script src="{{ cdn_resource('/assets/vendor/viewer/viewer.min.js') }}"></script>
 

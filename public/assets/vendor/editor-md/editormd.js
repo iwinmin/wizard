@@ -1,8 +1,8 @@
 /*
  * Editor.md
  *
- * @file        editormd.js 
- * @version     v1.5.0 
+ * @file        editormd.js
+ * @version     v1.5.0
  * @description Open source online markdown editor.
  * @license     MIT License
  * @author      Pandao
@@ -3177,7 +3177,7 @@
         ext: ".png"
     };
 
-    // Twitter Emoji (Twemoji)  graphics files url path    
+    // Twitter Emoji (Twemoji)  graphics files url path
     editormd.twemoji = {
         path: "http://twemoji.maxcdn.com/36x36/",
         ext: ".png"
@@ -3512,6 +3512,8 @@
                     '</div>';
             } else if (lang === 'mermaid') {
                 return '<div class="mermaid">' + code + "</div>";
+            } else if (lang === 'plantuml') {
+                return '<div class="plantuml"><img src="/plantuml/svg/' + plantumlEncoder.encode(code) + '" /></div>';
             } else if (lang === '::info::') {
                 return this.codeToAlertBox('info', code);
             } else if (lang === '::success::') {

@@ -25,6 +25,7 @@
 @endpush
 
 @push('script')
+    <script src="{{ cdn_resource('/assets/vendor/plantuml-encoder.min.js') }}"></script>
     <script src="{{ cdn_resource('/assets/vendor/base64.min.js') }}"></script>
     <script src="{{ cdn_resource('/assets/vendor/editor-md/lib/raphael.min.js') }}"></script>
     <script src="{{ cdn_resource('/assets/vendor/editor-md/lib/underscore.min.js') }}"></script>
